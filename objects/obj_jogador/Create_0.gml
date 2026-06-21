@@ -3,15 +3,16 @@
 
 	velocidade = 3;
 	
-	vidaMaxima	= 3;
+	vidaMaxima	= 100;
 	vida		= vidaMaxima;
 	
 	tomouHit			= false;
-	tempoHit			= game_get_speed(gamespeed_fps);
+	tempoHit			= global.timeGame;
 	timeHit				= 0;
-	tempoParadoHit		= game_get_speed(gamespeed_fps) * 1.7;
+	tempoParadoHit		= global.timeGame * 1.7;
 	timeParadoHit		= tempoParadoHit;
 	
+	show_debug_message(string(tempoHit) + "tempo");
 #endregion
 
 #region Funções locais
@@ -50,7 +51,7 @@
 		
 		if(instanceInimigo == noone) return;
 		
-		var tipoHit = instanceInimigo.hitNoJogador;
+		var tipoHit = instanceInimigo.tipoHit;
 		
 		switch(tipoHit) {
 			case("hit"): {
@@ -58,7 +59,7 @@
 			} break
 			
 			case("continuo"): {
-				
+				scr_hitContinuoVida();
 			}
 		}
 
