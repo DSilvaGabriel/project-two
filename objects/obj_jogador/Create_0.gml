@@ -50,22 +50,18 @@
 		
 		if(instanceInimigo == noone) return;
 		
-		tomouHit	= true;
-		timeHit		= 0;
-		hitContinuo	= instanceInimigo.hitContinuo;
+		var tipoHit = instanceInimigo.hitNoJogador;
+		
+		switch(tipoHit) {
+			case("hit"): {
+				scr_hitVida();
+			} break
+			
+			case("continuo"): {
+				
+			}
+		}
 
-		timeHit = scr_temporizador(
-		    0,
-		    tempoHit,
-		    function() {
-		        scr_perdeVidaContinua(hitContinuo);
-				show_debug_message(string(vida) + "vida");
-		    },
-			"Hit"
-		);
-		
-		scr_recuo(instanceInimigo);
-		
 		return;
 	}
 #endregion
