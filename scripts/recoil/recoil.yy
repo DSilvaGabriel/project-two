@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"relogio",
+  "%Name":"recoil",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"relogio",
+  "name":"recoil",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

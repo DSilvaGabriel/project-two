@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_movimentasao",
+  "%Name":"clock",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_movimentasao",
+  "name":"clock",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

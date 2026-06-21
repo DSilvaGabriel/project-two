@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_recuo",
+  "%Name":"life",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_recuo",
+  "name":"life",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
