@@ -1,6 +1,7 @@
 function scr_hitVida() {
 	tomouHit	= true;
 	timeHit		= 0;
+	tempoHit	= instanceInimigo.tempoHit;
 	hit			= instanceInimigo.hit;
 
 	timeHit = scr_temporizador(

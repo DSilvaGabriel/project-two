@@ -1,5 +1,5 @@
 function scr_recuo(_inimigo) {
-	var _instanceInimigo = instance_place(x, y, obj_inimigo1);
+	var _instanceInimigo = instance_place(x, y, _inimigo);
 
 	if (_instanceInimigo != noone) {
 

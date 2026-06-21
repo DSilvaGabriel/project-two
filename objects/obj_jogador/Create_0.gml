@@ -7,10 +7,15 @@
 	vida		= vidaMaxima;
 	
 	tomouHit			= false;
-	tempoHit			= global.timeGame;
-	timeHit				= 0;
+	tempoHit			= 1;
 	tempoParadoHit		= global.timeGame * 1.7;
 	timeParadoHit		= tempoParadoHit;
+	
+	hit = 1;
+	hitContinuo = .1;
+	tipoHit = "continuo";
+	forcaRecuo = 36.8;
+	tempoHitContinuo = 1;
 	
 	show_debug_message(string(tempoHit) + "tempo");
 #endregion
@@ -25,7 +30,7 @@
 		movex = -keyboard_check(vk_left) +keyboard_check(vk_right);
 		movey = -keyboard_check(vk_up) +keyboard_check(vk_down);
 		
-		fun_tomarHitDoInimigo(obj_inimigo1);
+		
 		
 		x += clamp(movex * velocidade, -velocidade, velocidade);
 		y += clamp(movey * velocidade, -velocidade, velocidade);
@@ -48,6 +53,7 @@
 		}
 		
 		instanceInimigo = instance_place(x, y, _inimigo);
+		timeHit = 0;
 		
 		if(instanceInimigo == noone) return;
 		
