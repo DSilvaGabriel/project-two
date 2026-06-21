@@ -4,16 +4,28 @@ function scr_hitVida() {
 	hit			= instanceInimigo.hit;
 
 	timeHit = scr_temporizador(
-		0,
+		timeHit,
 		tempoHit,
 		function() {
 			vida -= hit;
 		},
-		"Hit"
+		" HitUnico"
 	);
 				
 	scr_recuo(instanceInimigo);
 }
 
-function scr_perdeVidaPorHit() {
+function scr_hitContinuoVida() {
+	hit		 = instanceInimigo.hitContinuo;
+	tempoHit = global.timeGame * instanceInimigo.tempoHitContinuo
+	
+	timeHit = scr_temporizador(
+		timeHit,
+		tempoHit,
+		function(){
+			vida -= hit;
+			show_debug_message("ola");
+		},
+		" HitContinuo"
+	);
 }
