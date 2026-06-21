@@ -27,10 +27,15 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"hitNoJogador","filters":[],"listItems":[
+    {"$GMObjectProperty":"v1","%Name":"tipoHit","filters":[],"listItems":[
         "\"hit\"",
         "\"continuo\"",
-      ],"multiselect":false,"name":"hitNoJogador","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"hit\"","varType":6,},
+      ],"multiselect":false,"name":"tipoHit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"hit\"","varType":6,},
+    {"$GMObjectProperty":"v1","%Name":"hit","filters":[],"listItems":[],"multiselect":false,"name":"hit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"forcaRecuo","filters":[],"listItems":[],"multiselect":false,"name":"forcaRecuo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"36.8","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"hitContinuo","filters":[],"listItems":[],"multiselect":false,"name":"hitContinuo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"tempoHitContinuo","filters":[],"listItems":[],"multiselect":false,"name":"tempoHitContinuo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"timeHitContinuo","filters":[],"listItems":[],"multiselect":false,"name":"timeHitContinuo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
