@@ -51,6 +51,7 @@
     {"id":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"clock","path":"scripts/clock/clock.yy",},},
+    {"id":{"name":"geral","path":"scripts/geral/geral.yy",},},
     {"id":{"name":"life","path":"scripts/life/life.yy",},},
     {"id":{"name":"recoil","path":"scripts/recoil/recoil.yy",},},
     {"id":{"name":"spr_inimigo1","path":"sprites/spr_inimigo1/spr_inimigo1.yy",},},
