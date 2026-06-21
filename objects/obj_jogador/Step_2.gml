@@ -1,0 +1,1 @@
+vida = clamp(vida, 0, vidaMaxima);
