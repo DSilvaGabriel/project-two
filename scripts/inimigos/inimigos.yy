@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"inimigos",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"inimigos",
+  "parent":{
+    "name":"inimigos",
+    "path":"folders/Scripts/inimigos.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

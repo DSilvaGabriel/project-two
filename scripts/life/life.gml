@@ -25,8 +25,19 @@ function scr_hitContinuoVida() {
 		tempoHit,
 		function(){
 			vida -= hit;
-			show_debug_message("ola");
 		},
 		" HitContinuo"
 	);
 }
+
+function scr_perdeVida(tipoHit){
+	switch(tipoHit) {
+		case("hit"): {
+			scr_hitVida();
+		} break
+			
+		case("continuo"): {
+			scr_hitContinuoVida();
+		}
+	}
+}	

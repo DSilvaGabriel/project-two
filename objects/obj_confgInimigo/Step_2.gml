@@ -1,0 +1,2 @@
+x += movex;
+y += movey;

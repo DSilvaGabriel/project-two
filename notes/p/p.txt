@@ -1,0 +1,31 @@
+até dois jogadores jogaveis, tem que ser possivel jogar apenas utilizando o teclado, sem o mouse.
+pelo menos 5 inimigos de diferentes, 5 leveis bobos, e um boss final no modo single player
+no modo multplayer apenas trocação franca
+graficos simples, mas gamaplay dinamica
+e pelo menos um estilo de combate, arma de fogo tendo duas variedade (automatica e não automatica)
+
+player 
+ - move 8 direções
+ - pegar e solta arma
+ - pode atirar ao ter uma arma
+ - leva dano por hit e dano continuo
+
+Armas 
+ - estado de solta e coletada
+ - estado de solta ela brilha e não pode atirar
+ - estado de coletada ela segue o player, mira para o inimigo mais proximo, ou nadireção do segundo player
+ - causa dano de acordo com o estilo da arma
+ - munição infinita
+ - cadencia de tiro
+
+inimigos 
+ - pelo menos 5 inimigos variados
+ - leva dano por hit e dano continuo
+ - move em 8 direçõs
+ - cauda dao ao player atirando ou encostando
+
+inimigo 1 
+ - corre em direção ao player
+ - causa 1 de hit ao player
+ - e tem 3 de vida
+ - pode levar dano por hit, ou dano continuo
